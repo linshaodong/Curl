@@ -10,8 +10,6 @@
 		}
 	],
 	"autoload": {
-		"psr-4": {
-			"lin\\": "src/",
-		}
-	},
+        "psr-4": {"Lin\\": "lin/src/"}
+    }
 }
