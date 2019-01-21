@@ -1,0 +1,19 @@
+{
+    "name": "lin/curl",
+    "require": {},
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+		  "name": "linshaodong",
+		  "email": "1619316848@qq.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/",
+			"Lib\\": "lib/"
+		},
+		"files": ["lib/helpers.php"]
+	},
+}
